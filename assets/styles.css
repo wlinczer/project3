@@ -1,0 +1,48 @@
+body {
+  font-family: nudista-web, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 42px;
+  margin-top: -50px;
+}
+
+.title-content {
+  font-family: nudista-web, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 25px;
+  color: grey;
+  margin-top: -70px;
+}
+
+.title2-content {
+  font-family: nudista-web, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 12px;
+  margin-top: -20px;
+}
+
+.title3-content {
+  font-family: nudista-web, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 12px;
+  margin-top: -20px;
+}
+
+.leadin-content {
+  ont-family: nudista-web, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 12px;
+  margin-top: auto;
+  text-align: left;
+}
+
+p {
+  font-family: nudista-web, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+}
