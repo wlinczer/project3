@@ -1,30 +1,50 @@
 body {
-
+  font-family: nudista-web, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 30px;
+  margin-top: -50px;
 }
 
-.site-container{
-width: 100%;
-margin: auto;
+.title-content {
+  font-family: nudista-web, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 25px;
+  color: grey;
+  margin-top: -70px;
 }
 
-header {
-background-color: black;
-color: white;
-padding-bottom: 5px;
+.title2-content {
+  font-family: nudista-web, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 12px;
+  margin-top: -20px;
 }
 
-img{
-  width: 100%;
-  height: auto;
-  margin-top: 0px;
+.title3-content {
+  font-family: nudista-web, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 12px;
+  margin-top: -20px;
+}
+
+.leadin-content {
+  ont-family: nudista-web, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 12px;
+  margin-top: auto;
+  text-align: left;
 }
 
 .section-one, .section-two, .section-three p {
   font-family: "Times New Roman", Times, serif;
   font-weight: 400;
-  font-style: normal;
-  font-size: 16px;
 }
+
 
 .intro-container, .section-four, .section-five, .section-six p {
   font-family: 'Roboto', sans-serif;
