@@ -1,22 +1,30 @@
-body {
+body {}
 
-}
-
-.site-container{
-width: 100%;
-margin: auto;
+.site-container {
+  width: 100%;
+  margin: auto;
 }
 
 header {
-background-color: black;
-color: white;
-padding-bottom: 5px;
+  background-color: black;
+  color: #CECECE;
 }
 
-img{
+img {
   width: 100%;
   height: auto;
   margin-top: 0px;
+}
+
+.intro-container {
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-bottom: 1%;
+}
+
+.author-date-content p {
+  text-align: center;
+  font-size: 14px;
 }
 
 .section-one .section-two .section-three p {
@@ -25,8 +33,6 @@ img{
   font-style: normal;
   font-size: 16px;
 }
-
-
 
 .intro-container, .section-four, .section-five, .section-six p {
   font-family: 'Roboto', sans-serif;
