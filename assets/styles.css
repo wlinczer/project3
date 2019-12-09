@@ -40,9 +40,15 @@ body {
   text-align: left;
 }
 
-p {
-  font-family: nudista-web, sans-serif;
-  font-weight: 300;
+.section-one, .section-two, .section-three p {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+}
+
+
+.intro-container, .section-four, .section-five, .section-six p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
   font-style: normal;
   font-size: 16px;
 }
