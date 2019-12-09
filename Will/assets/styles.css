@@ -27,11 +27,21 @@ img {
   font-size: 14px;
 }
 
-.section-one .section-two .section-three p {
+.article-container {
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-bottom: 1%;
+}
+
+.section-one, .section-two, .section-three p {
   font-family: "Times New Roman", Times, serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
+}
+
+.section-one, .section-three, .section-five{
+  background-color: #F2F2F2;
 }
 
 .intro-container, .section-four, .section-five, .section-six p {
