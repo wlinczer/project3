@@ -15,7 +15,14 @@ header {
 img {
   width: 100%;
   height: auto;
-  margin-top: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.top-layer {
+  position: absolute;
+  top: 0px;
+  left: 0px;
 }
 
 p, h1, h2, h3, h4 {
@@ -67,3 +74,43 @@ p, h1, h2, h3, h4 {
   font-style: normal;
   font-size: 16px;
 }
+
+progress {
+  /* Positioning */
+  position: fixed;
+  left: 0;
+  bottom: 0;
+
+  /* Dimensions */
+  width: 100%;
+  height: 10px;
+
+  /* Reset the appearance */
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+
+  /* Get rid of the default border in Firefox/Opera. */
+  border: none;
+
+  /* Progress bar container for Firefox/IE10+ */
+  background-color: transparent;
+
+  /* Progress bar value for IE10+ */
+  color: #9D0000;
+}
+
+
+  progress::-webkit-progress-bar {
+    background-color: transparent;
+  }
+
+/* Color of the Progress bar for Mozilla based browsers  */
+  progress::-moz-progress-bar {
+    background-color: #9D0000;
+  }
+
+/* Color of the Progress bar for Chrome based browsers  */
+  progress::-webkit-progress-value {
+    background-color: #9D0000;
+  }
