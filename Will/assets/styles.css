@@ -15,7 +15,14 @@ header {
 img {
   width: 100%;
   height: auto;
-  margin-top: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.top-layer {
+  position: absolute;
+  top: 0px;
+  left: 0px;
 }
 
 p, h1, h2, h3, h4 {
