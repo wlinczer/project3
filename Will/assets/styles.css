@@ -19,6 +19,7 @@ img {
   padding: 0px;
 }
 
+
 .top-layer {
   position: absolute;
   top: 0px;
@@ -58,14 +59,39 @@ p, h1, h2, h3, h4 {
   font-size: 16px;
 }
 
+.section-one h4, .section-two h4, .section-three h4 {
+  border-top: solid 4px #478299;
+  border-bottom: solid 4px #478299 ;
+  font-size: 20px;
+  background-color: white;
+  color: black;
+  text-shadow: none;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .section-one {
   background-color: #910000;
+  opacity: 90%;
   color: white;
   text-shadow: 2px 2px 3px black;
 }
 
-.section-two, .section-four, .section-six{
-  background-color: #F2F2F2;
+.section-two {
+  background-color: rgba( 150, 61, 151, 0.75);
+  color: white;
+  text-shadow: 2px 2px 3px black;
+}
+
+.section-three {
+  background-color: rgba( 0, 158, 220, 0.5);
+  color: black ;
+  text-shadow: 2px 2px 3px white;
+}
+
+.section-six {
+  background-color: black;
+  color: white ;
 }
 
 .intro-container, .section-four, .section-five, .section-six {
