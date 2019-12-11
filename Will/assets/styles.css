@@ -27,10 +27,15 @@ img {
   font-size: 14px;
 }
 
-.article-container {
+.context-container {
+  font-style: italic;
+}
+
+.article-container p, h3, h4 {
   padding-left: 4%;
   padding-right: 4%;
   padding-bottom: 1%;
+  padding-top: 1%;
 }
 
 .section-one, .section-two, .section-three p {
@@ -38,6 +43,12 @@ img {
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
+}
+
+.section-two {
+  background-color: #910000;
+  color: white;
+  text-shadow: 2px 2px 3px black;
 }
 
 .section-one, .section-three, .section-five{
