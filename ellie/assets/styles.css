@@ -1,52 +1,67 @@
 body {
-  font-family: nudista-web, sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 30px;
-  margin-top: -50px;
+  margin: 0px;
 }
 
-.title-content {
-  font-family: nudista-web, sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 25px;
-  color: grey;
-  margin-top: -70px;
+.site-container {
+  width: 100%;
+  margin: auto;
 }
 
-.title2-content {
-  font-family: nudista-web, sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 12px;
-  margin-top: -20px;
+header {
+  background-color: black;
+  color: #CECECE;
 }
 
-.title3-content {
-  font-family: nudista-web, sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 12px;
-  margin-top: -20px;
+img {
+  width: 100%;
+  height: auto;
+  margin-top: 0px;
 }
 
-.leadin-content {
-  ont-family: nudista-web, sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 12px;
-  margin-top: auto;
-  text-align: left;
+p, h1, h2, h3, h4 {
+  margin: 0px;
 }
 
-.section-one, .section-two, .section-three p {
+.intro-container {
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-bottom: 1%;
+}
+
+.author-date-content p {
+  text-align: center;
+  font-size: 14px;
+}
+
+.context-container {
+  font-style: italic;
+}
+
+.article-container p, h3, h4 {
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-bottom: 1%;
+  padding-top: 1%;
+}
+
+.section-one, .section-two, .section-three {
   font-family: "Times New Roman", Times, serif;
   font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
 }
 
+.section-one {
+  background-color: #910000;
+  color: white;
+  text-shadow: 2px 2px 3px black;
+}
 
-.intro-container, .section-four, .section-five, .section-six p {
+.section-two, .section-four, .section-six{
+  background-color: #F2F2F2;
+}
+
+.intro-container, .section-four, .section-five, .section-six {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-style: normal;
