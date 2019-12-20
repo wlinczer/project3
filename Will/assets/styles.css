@@ -8,6 +8,7 @@ body {
 }
 
 header {
+  position: relative;
   background-color: black;
   color: #CECECE;
 }
@@ -74,7 +75,7 @@ p, h1, h2, h3, h4 {
 
 .section-one h4, .section-two h4, .section-three h4 {
   border-top: solid 4px #478299;
-  border-bottom: solid 4px #478299 ;
+  border-bottom: solid 4px #478299;
   font-size: 20px;
   background-color: white;
   color: black;
@@ -90,36 +91,36 @@ p, h1, h2, h3, h4 {
 }
 
 .section-two {
-  background-color: rgba( 150, 61, 151, 0.75);
+  background-color: rgba(150, 61, 151, 0.75);
   color: white;
   text-shadow: 2px 2px 3px black;
 }
 
 .section-three {
-  background-color: rgba( 0, 158, 220, 0.5);
-  color: black ;
+  background-color: rgba(0, 158, 220, 0.5);
+  color: black;
   text-shadow: 2px 2px 3px white;
 }
 
 .section-four {
-  background-color: rgba(175,224,195,0.5);
-  color: black ;
+  background-color: rgba(175, 224, 195, 0.5);
+  color: black;
 }
 
 .section-five {
-  background-color: rgba(204,197,215,0.5);
-  color: black ;
+  background-color: rgba(204, 197, 215, 0.5);
+  color: black;
   text-shadow: 2px 2px 3px white;
 }
 
 .section-six {
-  background-color: rgba(248,243,237,0.5);
-  color: black ;
+  background-color: rgba(248, 243, 237, 0.5);
+  color: black;
 }
 
 .section-seven {
   background-color: black;
-  color: white ;
+  color: white;
 }
 
 .section-eight {
@@ -128,7 +129,136 @@ p, h1, h2, h3, h4 {
   font-size: 12px;
 }
 
-.mid-section {
-  background-color: white;
-  color: black;
+@media only screen and (min-width: 768px) {
+  body {
+    width: 768px;
+    margin: auto;
+  }
+
+  .flex {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .column-one {
+    flex: 50%
+  }
+
+  .column-two {
+    flex: 50%
+  }
+
+  #pullquote-one {
+    margin-top: 1350px;
+  }
+
+  #pullquote-two {
+    margin-top: 990px;
+  }
+
+  #pullquote-three {
+    margin-top: 41px;
+  }
+
+  #pullquote-four {
+    margin-top: 500px;
+  }
+
+  #pullquote-five {
+    margin-top: 550px;
+  }
+
+  #pullquote-six {
+    margin-top: 1265px;
+  }
+
+  #pullquote-seven {
+    margin-top: 1290px;
+  }
+
+  #pullquote-eight {
+  }
+
+  #pullquote-nine {
+    margin-top: 700px;
+  }
+
+  #pullquote-ten {}
+
+  #pullquote-eleven {
+    margin-top: 1460px;
+  }
+
+  #pullquote-twelve {
+    margin-top: 40px;
+  }
+
+  #pullquote-thirteen {
+    margin-top: 640px;
+  }
+
+  #pullquote-fourteen {
+    margin-top: 1440px;
+  }
+
+  #pullquote-fifteen {
+    margin-top: 395px;
+  }
+
+  #photo-one {
+    margin: auto;
+    width: 70%;
+  }
+
+  #photo-two {
+    margin: auto;
+    margin-top: 540px;
+  }
+
+  #photo-three {
+    margin: auto;
+    width: 55%;
+  }
+
+  #photo-four {
+    margin: auto;
+    margin-top: 500px;
+  }
+
+  #photo-five {
+    margin: auto;
+    margin-top: 120px;
+  }
+
+  #photo-six {
+    margin: auto;
+    width: 80%;
+  }
+
+  #photo-seven {
+    margin-top: 410px;
 }
+
+#photo-eight {
+  margin-top: 290px;
+}
+
+  #oddball-one {
+    margin-top: -70px;
+  }
+
+  #oddball-two {
+    margin-top: -220px;
+  }
+
+  #oddball-three {
+    margin-top: -30px;
+  }
+}
+}
+
+@media only screen and (min-width: 1200px) {
+  body {
+    width: 1024px;
+    margin: auto;
+  }
