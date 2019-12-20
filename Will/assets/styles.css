@@ -65,6 +65,13 @@ p, h1, h2, h3, h4 {
   font-size: 16px;
 }
 
+.intro-container, .section-four, .section-five, .section-six, .section-seven, .section-eight {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+}
+
 .section-one h4, .section-two h4, .section-three h4 {
   border-top: solid 4px #478299;
   border-bottom: solid 4px #478299 ;
@@ -78,7 +85,6 @@ p, h1, h2, h3, h4 {
 
 .section-one {
   background-color: #910000;
-  opacity: 90%;
   color: white;
   text-shadow: 2px 2px 3px black;
 }
@@ -96,19 +102,33 @@ p, h1, h2, h3, h4 {
 }
 
 .section-four {
-  background-color: rgba(248,243,237,0.5);
+  background-color: rgba(175,224,195,0.5);
+  color: black ;
+}
+
+.section-five {
+  background-color: rgba(204,197,215,0.5);
   color: black ;
   text-shadow: 2px 2px 3px white;
 }
 
 .section-six {
+  background-color: rgba(248,243,237,0.5);
+  color: black ;
+}
+
+.section-seven {
   background-color: black;
   color: white ;
 }
 
-.intro-container, .section-four, .section-five, .section-six {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16px;
+.section-eight {
+  background-color: #e3e3e3;
+  color: #1c1c1c;
+  font-size: 12px;
+}
+
+.mid-section {
+  background-color: white;
+  color: black;
 }
