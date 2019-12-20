@@ -176,8 +176,7 @@ p, h1, h2, h3, h4 {
     margin-top: 1290px;
   }
 
-  #pullquote-eight {
-  }
+  #pullquote-eight {}
 
   #pullquote-nine {
     margin-top: 700px;
@@ -237,11 +236,11 @@ p, h1, h2, h3, h4 {
 
   #photo-seven {
     margin-top: 410px;
-}
+  }
 
-#photo-eight {
-  margin-top: 290px;
-}
+  #photo-eight {
+    margin-top: 290px;
+  }
 
   #oddball-one {
     margin-top: -70px;
@@ -254,7 +253,6 @@ p, h1, h2, h3, h4 {
   #oddball-three {
     margin-top: -30px;
   }
-}
 }
 
 @media only screen and (min-width: 1200px) {
