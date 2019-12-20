@@ -13,31 +13,35 @@
 <body>
   <div class="site-container">
     <header>
-      <img src="assets/images/bottom-layer.jpg" class="bottom-layer rellax"></img>
+      <div class='intro'>
+        <img src="assets/images/bottom-layer.jpg" class="bottom-layer"></img>
 
-      <img src="assets/images/top-layer.png" class="top-layer rellax" data-rellax-speed="7"></img>
-
-      <div class="intro-container">
-        <div class="author-date-content">
-          <p>
-            An exclusive excerpt from The One Device
-            <br>
-            By Brian Merchant Jun 13, 2017, 10:00am EDT
-          </p>
-        </div>
-
-        <div class="context-container">
-          <p>
-            This month marks 10 years since Apple launched the first iPhone, a device that would fundamentally transform how we interact with technology, culture, and each other. Ahead of that anniversary, Motherboard editor Brian Merchant embarked
-            on an investigation to uncover the iPhone’s untold origin. The One Device: The secret history of the iPhone, out on June 20th, traces that journey from Kenyan mines to Chinese factories all the way to One Infinite Loop. The following
-            excerpt has been lightly condensed and edited.
-          </p>
-        </div>
+        <img src="assets/images/top-layer.png" class="top-layer "></img>
+      </div <div class="intro-container">
+      <div class="author-date-content">
+        <p>
+          An exclusive excerpt from The One Device
+          <br>
+          By Brian Merchant Jun 13, 2017, 10:00am EDT
+        </p>
       </div>
 
-    </header>
+      <div class="context-container">
+        <p>
+          This month marks 10 years since Apple launched the first iPhone, a device that would fundamentally transform how we interact with technology, culture, and each other. Ahead of that anniversary, Motherboard editor Brian Merchant embarked
+          on an investigation to uncover the iPhone’s untold origin. The One Device: The secret history of the iPhone, out on June 20th, traces that journey from Kenyan mines to Chinese factories all the way to One Infinite Loop. The following
+          excerpt has been lightly condensed and edited.
+        </p>
+      </div>
+  </div>
 
-    <div class="article-container">
+  </header>
+  <div class='tri-flex'>
+    <div class='column-one-third'>
+      <div class='navigation'>
+      </div>
+    </div>
+    <div class="article-container column-two-third">
 
       <section class="section-one">
 
@@ -1182,7 +1186,16 @@
       </section>
     </div>
   </div>
+</div>
+</div>
   <script src="js/aos.js" charset="utf-8"></script>
   <script src="js/aos-duration.js" charset="utf-8"></script>
   <script type="text/javascript" src="js/rellax.js"></script>
+  <script>
+    var rellax = new Rellax('.rellax', {
+      center: true
+    });
+  </script>
 </body>
+
+</html>
